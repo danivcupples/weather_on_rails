@@ -7,9 +7,9 @@
 
     <%= form_tag root_path do %>
 
-      <div class="mdl-textfield mdl-js-textfield--floating-label">
-        <%= text_field_tag :city, nil, class: "mdl-textfield__placeholder" %>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <%= label_tag :city, "City Name", class: "mdl-textfield__label" %>
+        <%= text_field_tag :city, nil, class: "mdl-textfield__input" %>
         <br>
       </div>
 
